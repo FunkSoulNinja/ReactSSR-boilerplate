@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        [
+            "module-alias",
+            [
+                { "src": "./src/client/components", "expose": "@components" },
+                { "src": "./src/client/pages", "expose": "@pages" }
+            ]
+        ]
+    ]
+}
